@@ -6,7 +6,7 @@ import './feedback.css';
 export function Feedback(props) {
   /** 
    * Below, we'll the guessCount to generate a key so that React treats the feedback message 
-   * as a DOM change, even when a guess does not change the feedback text.
+   * as a DOM change, even when a guesos does not change the feedback text.
    * This is necessary for consistent aural feedback via aria-live.
   */
   const key = props.guessCount;
